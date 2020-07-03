@@ -1,0 +1,12 @@
+{
+  "name": "Connpass Extension",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "connpass extension",
+  "content_scripts": [
+    {
+      "matches": ["https://connpass.com/search/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
