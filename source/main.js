@@ -7,8 +7,6 @@ if (location.pathname === "/search/") {
     if (e.keyCode === 39) {
       document.querySelector(".to_next a").click();
     }
-  });
-  addEventListener("keydown", (e) => {
     if (e.keyCode === 37) {
       document.querySelector(".to_prev a").click();
     }
